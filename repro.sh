@@ -10,4 +10,4 @@ find ../../common/temp/node_modules -maxdepth 1
 echo "PACKAGE.JSON" $'\n'
 cat package.json
 echo "YARN.LOCK" $'\n'
-cat yarn.lock
+cat ../../common/yarn.lock
