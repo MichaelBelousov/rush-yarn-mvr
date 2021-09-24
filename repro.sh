@@ -3,11 +3,15 @@
 rush install
 cd projects/proj1
 rush add -p lodash.pick
-echo "LINKED MODULES" $'\n'
+echo
+echo "LINKED MODULES"
 find node_modules -maxdepth 1
-echo "ALL MODULES" $'\n'
+echo
+echo "ALL MODULES"
 find ../../common/temp/node_modules -maxdepth 1
-echo "PACKAGE.JSON" $'\n'
+echo
+echo "PACKAGE.JSON"
 cat package.json
-echo "YARN.LOCK" $'\n'
-cat ../../common/yarn.lock
+echo
+echo "YARN.LOCK"
+cat ../../common/config/rush/yarn.lock
