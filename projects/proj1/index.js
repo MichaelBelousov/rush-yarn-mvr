@@ -1,6 +1,7 @@
+const Lazy = require("lazy-from");
 
-
-require("");
 module.exports = {
-  a() { return 5; }
+  a() {
+    return Lazy.zip([1, 2, 3], "abc");
+  },
 };
